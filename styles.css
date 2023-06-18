@@ -1,0 +1,167 @@
+/* 
+white-g: #ebfffb
+v-light: #dafff8
+light: #52ffdd
+primary-color: #00b894
+dark: #006350
+v-dark: #004134
+vv-dark: #001f19
+vvv-dark: #000e0b
+ */
+ 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+/* End General  */
+
+header nav {
+    height: 7vh;
+    background-color: #00b894;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav h5 {
+    margin-left: 2rem;
+    color: #dafff8;
+    font-size: 16px;
+    justify-self: right;
+}
+
+header nav ul {
+    margin-right: 2rem;
+    list-style: none;
+}
+
+header nav ul li {
+    font-weight: 900;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+
+header nav ul li:hover {
+    background-color: #52ffdd;
+}
+
+header nav ul li a {
+    color: #dafff8;
+}
+
+/* End nav */
+
+header .hero {
+    height: 93vh;
+    background: linear-gradient(#006350, #004134);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .content {
+    width: 50%;
+    margin-bottom: 15vh;
+    text-align: center;
+}
+
+.hero .content h1 {
+    text-align: center;
+    color: #ebfffb;
+    margin-bottom: 1rem;
+    font-size: 3.6rem;
+}
+
+.hero .content button {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: 2px solid #006350;
+    color: #006350;
+    background-color: #ebfffb;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.hero .content button:hover {
+    border: 2px solid #ebfffb;
+    color: #ebfffb;
+    background-color: #006350;
+}
+
+/* End hero section */
+
+.plans {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.plans form {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.plans form div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.plans label {
+    color: #004134;
+}
+.plans input {
+    width: 500px;
+    height: 32px;
+    border: 2px solid #000e0b;
+    border-radius: 10px;
+    background-color: #ebfffb;
+    padding: 2px;
+    color: #727272;
+    outline: none;
+}
+
+.plans h3 {
+    color: #001f19;
+}
+
+.plans button{
+    width: 200px;
+    height: 32px;
+    border: 2px solid #ebfffb;
+    background-color: #00b894;
+    color: #ebfffb;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.plans button:hover {
+    border: 2px solid #00b894;
+    background-color: #ebfffb;
+    color: #00b894;
+}
+
+/* end plan */
+
+footer {
+    height: 10vh;
+    background-color: #001f19;
+}
