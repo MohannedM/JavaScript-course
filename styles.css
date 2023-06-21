@@ -164,4 +164,8 @@ header .hero {
 footer {
     height: 10vh;
     background-color: #001f19;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ebfffb;
 }
